@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Timer</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id = "header">
+    <h1>Work smart, have rest in time!</h1>
+</div>
+    <div id = "container">
+        <p id = "work" class = "label">WORK:</p>
+        <p id = "break" class = "label">BREAK:</p>
+        <p id = "cycles" class = "label">CYCLES:</p>
+
+        <div id = "work-timer" class = "timer">
+            <p id = "w_minutes">0</p>
+            <p class = "colon">:</p>
+            <p id = "w_seconds" >10</p>
+        </div>
+
+        <p id = "counter" class = "timer">0</p>
+
+        <div id = "break-timer" class = "timer">
+            <p id = "b_minutes">0</p>
+            <p class = "colon">:</p>
+            <p id = "b_seconds">5</p>
+        </div>
+
+        <button id = "start" class = "btn">Start</button>
+        <button id = "pause" class = "btn">Pause</button>
+        <button id = "reset" class = "btn">Reset</button>
+    </div>
+
+    <video autoplay = "autoplay" loop = "loop" muted defaultMutedplayinline id = "myVideo">
+        <source src="laptop.mp4" type="video/mp4">
+    </video>
+
+    <script src = "index.js"></script>
+</body>
+</html>
