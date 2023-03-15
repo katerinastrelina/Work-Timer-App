@@ -1,2 +1,2 @@
 # Work-Timer-App
-Work Timer App built with JavaScript, HTML, CSS.
+Work Timer App built with HTML, CSS, JavaScript.
