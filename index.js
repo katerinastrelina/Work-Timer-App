@@ -1,13 +1,13 @@
-var start = document.getElementById("start");
-var pause = document.getElementById("pause");
-var reset = document.getElementById("reset");
+let start = document.getElementById("start");
+let pause = document.getElementById("pause");
+let reset = document.getElementById("reset");
 
-var wm = document.getElementById("w_minutes");
-var ws = document.getElementById("w_seconds");
-var bm = document.getElementById("b_minutes");
-var bs = document.getElementById("b_seconds");
+let wm = document.getElementById("w_minutes");
+let ws = document.getElementById("w_seconds");
+let bm = document.getElementById("b_minutes");
+let bs = document.getElementById("b_seconds");
 
-var startTimer;
+let startTimer;
 
 start.addEventListener("click", function() {
     if(startTimer === undefined) {
